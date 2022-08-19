@@ -19,11 +19,14 @@ h1 {
     text-transform: uppercase;
     letter-spacing: .5em;
     width: 100%;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
-
-/* #input-div {
-
-} */
 
 input[type="color"] {
     -webkit-appearance: none;
@@ -34,6 +37,7 @@ input[type="color"] {
     background-color: transparent;
     border: none;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 
@@ -69,8 +73,18 @@ input[type="color"]::-moz-color-swatch:active {
     border: 5px solid rgba(255, 255, 255);
 }
 
+h2 {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
 h3 {
-	font: 900 1em 'Raleway', sans-serif;
+	font: 900 1.1em 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: none;
@@ -88,6 +102,13 @@ h3 {
     border-radius: 5px;
     cursor: pointer;
     transition: .3s;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 #random-gradient:hover {
